@@ -1,5 +1,6 @@
 name: flame_loading_progress_example
-description:
+description: Example game loading screen
+repository: https://github.com/ASGAlex/flame_loading_progress
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -30,8 +31,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flame: 1.6.0
-  flame_loading_progress:
-    path: ../
+  flame_loading_progress: ^0.0.1
   flame_message_stream: ^0.0.1
   flutter:
     sdk: flutter

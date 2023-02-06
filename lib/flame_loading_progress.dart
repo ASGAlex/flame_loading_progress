@@ -1,4 +1,4 @@
-/// The library provides extended API (compare to Flame's [loadBuilder]),
+/// The library provides extended API (compare to Flame's "loadBuilder"),
 /// which allows to display progress bar while game loading, and to create
 /// transition animation from loading screen to the game.
 
