@@ -8,11 +8,10 @@ environment:
 
 dependencies:
   flame: ^1.6.0
-  flame_message_stream:
-    git: https://github.com/ASGAlex/flame_message_stream.git
+  flame_message_stream: ^0.0.1
   flutter:
     sdk: flutter
-  meta: 1.8.0
+  meta: ^1.8.0
 
 dev_dependencies:
   flutter_lints: ^2.0.0
