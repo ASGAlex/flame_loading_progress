@@ -33,7 +33,7 @@ dependencies:
   flame_loading_progress:
     path: ../
   flame_message_stream:
-    git: git@github.com:ASGAlex/flame_message_stream.git
+    git: https://github.com/ASGAlex/flame_message_stream.git
   flutter:
     sdk: flutter
 
