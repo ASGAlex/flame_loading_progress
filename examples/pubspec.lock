@@ -78,7 +78,7 @@ packages:
       path: "."
       ref: HEAD
       resolved-ref: fd8f83139514d30eefe2cafbda37fc3978856549
-      url: "git@github.com:ASGAlex/flame_message_stream.git"
+      url: "https://github.com/ASGAlex/flame_message_stream.git"
     source: git
     version: "0.0.1"
   flutter:

@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2 # Only works with v2
-      - uses: subosito/flutter-action@v1
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
       - run: cd examples; flutter config --enable-web
       - run: cd examples; flutter build web --release --web-renderer=canvaskit --base-href /flame_loading_progress/ --dart-define=BROWSER_IMAGE_DECODING_ENABLED=false
       - run: git config user.name github-actions
