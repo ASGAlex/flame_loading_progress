@@ -30,3 +30,6 @@ Steps you should to perform to make things work:
 
 For more detailed instructions check the [game.dart](examples/lib/game.dart) file, where steps 1-4
 are illustrated. Check [main.dart](examples/lib/main.dart) for step 5.
+
+Also visit [live demo](https://asgalex.github.io/flame_loading_progress/) to see this package in
+action.
