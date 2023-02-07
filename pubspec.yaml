@@ -1,6 +1,6 @@
 name: flame_loading_progress
 description: Flame extension to add widgets with progress bar and transition animation
-version: 0.0.1
+version: 0.0.1+1
 repository: https://github.com/ASGAlex/flame_loading_progress
 
 environment:
