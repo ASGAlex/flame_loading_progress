@@ -55,6 +55,7 @@ class GameWidgetWrapper<T extends Game, M> extends StatefulWidget {
 
 class _GameWidgetWrapperState<T extends Game, M>
     extends State<GameWidgetWrapper<T, M>> {
+  final _gameWidgetKey = GlobalKey();
   late T currentGame;
   late LoadingWidgetBuilder<M> loadingWidgetBuilder;
 
@@ -98,6 +99,7 @@ class _GameWidgetWrapperState<T extends Game, M>
   }
 
   GameWidget<T> _buildGameWidget() => GameWidget(
+        key: _gameWidgetKey,
         game: currentGame,
         autofocus: widget.autofocus,
         backgroundBuilder: widget.backgroundBuilder,
