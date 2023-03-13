@@ -8,7 +8,7 @@ import 'package:meta/meta.dart';
 /// information to loading screen widget.
 mixin HasLoadingProgress<M> on HasMessageProviders {
   MessageStreamProvider<M> get _streamProvider =>
-      getMessageProvider<M>('loading_progress');
+      messageProvidersManager.getMessageProvider<M>('loading_progress');
 
   final _completer = Completer<void>();
 

@@ -8,7 +8,8 @@ environment:
 
 dependencies:
   flame: ^1.6.0
-  flame_message_stream: ^0.0.1
+  flame_message_stream:
+    path: ../flame_message_stream
   flutter:
     sdk: flutter
   meta: ^1.8.0
